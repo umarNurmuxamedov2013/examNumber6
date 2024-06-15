@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.textes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapperTitle {
+    color: #FF5634;
+    font-size: 18px;
+}
+
+.wrapperSubTitle {
+    width: 520px;
+    text-align: center;
+    font-size: 44px;
+}
+
+
+.wrapperLorem {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    color: #656565;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.group .groupTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    color: #121212;
+    width: 324px;
+}
+
+.groupSubTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #656565;
+    width: 344px;   
+}
+
+.groupWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.buttons .buttonsBtn1 {
+    background-color: #FF5634;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 247px;
+    height: 73px;
+}
+
+.buttons .buttonsBtn1:hover {
+    background-color: #d6492d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 247px;
+    height: 73px;
+}
+
+
+.buttons .buttonsBtn2 {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #EDEDED;
+    width: 205px;
+    height: 73px;
+}
+
+.buttons .buttonsBtn2:hover {
+    background-color: #FF5634;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 205px;
+    height: 73px;
+}
